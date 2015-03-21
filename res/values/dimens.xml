@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="T20px">20px</dimen>
+    <dimen name="D5px">5px</dimen>
+    <dimen name="W50px">50px</dimen>
+    <dimen name="W100px">100px</dimen>
+    <dimen name="B10px">10px</dimen>
+    <dimen name="T10px">10px</dimen>
+    <dimen name="T5px">5px</dimen>
+    <dimen name="Keyboard_Logo_Width">38.7px</dimen>
+    <dimen name="Keyboard_Logo_Height">21px</dimen>
+    <dimen name="Mouse_Logo_Width">31.3px</dimen>
+    <dimen name="Mouse_Logo_Height">21px</dimen>
+    <dimen name="W150">150px</dimen>
+    <dimen name="W125px">125px</dimen>
+    <dimen name="words_key_width">32px</dimen>
+    <dimen name="control_key_width">47px</dimen>
+    <dimen name="control_key_height">44px</dimen>
+</resources>

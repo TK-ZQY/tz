@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_chat"
+    android:contentDescription="@string/demo"
+    android:gravity="fill" >
+
+    <RelativeLayout
+        android:id="@+id/connectLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/D5px"
+        android:paddingRight="@dimen/D5px"
+        android:paddingTop="@dimen/T20px" >
+
+        <AutoCompleteTextView
+            android:id="@+id/IPAutoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/startButton"
+            android:ems="10"
+            android:hint="@string/IPText_Hint"
+            android:inputType="textWebEditText"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/StartConnect"
+            android:width="@dimen/W125px" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shutdownLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/connectLayout"
+        android:paddingBottom="@dimen/B10px"
+        android:paddingLeft="@dimen/D5px"
+        android:paddingRight="@dimen/D5px" >
+
+        <TextView
+            android:id="@+id/timeShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timeShow"
+            android:textColor="#E6E6FA" />
+
+        <SeekBar
+            android:id="@+id/timeSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timeShow"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/sendButton"
+            android:indeterminate="false"
+            android:max="60"
+            android:progress="0" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/D5px"
+            android:paddingRight="@dimen/D5px"
+            android:text="@string/shutdown"
+            android:width="@dimen/W125px" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/mouseStartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shutdownLayout"
+        android:text="@string/mouse_start_button" />
+
+    <Button
+        android:id="@+id/keyboardStartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mouseStartButton"
+        android:text="@string/keyboard_start_button" />
+
+    <TextView
+        android:id="@+id/logText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/keyboardStartButton"
+        android:height="200dp"
+        android:text="@string/hello_world"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

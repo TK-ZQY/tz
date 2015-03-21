@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meng1" >
+
+    <ImageView
+        android:id="@+id/punctuation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/word_description"
+        android:src="@drawable/punctuation" />
+
+    <RelativeLayout
+        android:id="@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:paddingBottom="@dimen/B10px"
+        android:paddingTop="@dimen/B10px" >
+
+        <ImageView
+            android:id="@+id/exclamation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/exclamation" />
+
+        <ImageView
+            android:id="@+id/at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/exclamation"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/at" />
+
+        <ImageView
+            android:id="@+id/sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/at"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/sharp" />
+
+        <ImageView
+            android:id="@+id/dollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/sharp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/dollar" />
+
+        <ImageView
+            android:id="@+id/percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/dollar"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/percent" />
+
+        <ImageView
+            android:id="@+id/xor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/percent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/xor" />
+
+        <ImageView
+            android:id="@+id/and"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/xor"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/and" />
+
+        <ImageView
+            android:id="@+id/asterisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/and"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/asterisk" />
+
+        <ImageView
+            android:id="@+id/parenthesisLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/asterisk"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/parenthesis_left" />
+
+        <ImageView
+            android:id="@+id/parenthesis_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/parenthesisLeft"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/parenthesis_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="@dimen/B10px"
+        android:paddingTop="@dimen/B10px" >
+
+        <ImageView
+            android:id="@+id/backQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/back_quote" />
+
+        <ImageView
+            android:id="@+id/not"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/backQuote"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/not" />
+
+        <ImageView
+            android:id="@+id/dash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/not"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/dash" />
+
+        <ImageView
+            android:id="@+id/underline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/dash"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/underline" />
+
+        <ImageView
+            android:id="@+id/equal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/underline"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/equal" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/equal"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/plus" />
+
+        <ImageView
+            android:id="@+id/middleBracketLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/plus"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/middle_bracket_left" />
+
+        <ImageView
+            android:id="@+id/middleBracketRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/middleBracketLeft"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/middle_bracket_right" />
+
+        <ImageView
+            android:id="@+id/bigBracketLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/middleBracketRight"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/big_bracket_left" />
+
+        <ImageView
+            android:id="@+id/bigBracketRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/bigBracketLeft"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/big_bracket_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group2"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/B10px"
+        android:paddingTop="@dimen/B10px" >
+
+        <ImageView
+            android:id="@+id/semiColon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/semi_colon" />
+
+        <ImageView
+            android:id="@+id/colon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/semiColon"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/colon" />
+
+        <ImageView
+            android:id="@+id/comma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/colon"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/comma" />
+
+        <ImageView
+            android:id="@+id/period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/comma"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/period" />
+
+        <ImageView
+            android:id="@+id/singleQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/period"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/single_quote" />
+
+        <ImageView
+            android:id="@+id/quote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/singleQuote"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/quote" />
+
+        <ImageView
+            android:id="@+id/backslash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/quote"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/backslash" />
+
+        <ImageView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/backslash"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/or" />
+
+        <ImageView
+            android:id="@+id/angleBracketLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/or"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/angle_bracket_left" />
+
+        <ImageView
+            android:id="@+id/angleBracketRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/angleBracketLeft"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/word_description"
+            android:maxWidth="@dimen/words_key_width"
+            android:src="@drawable/angle_bracket_right" />
+    </RelativeLayout>
+
+</RelativeLayout>

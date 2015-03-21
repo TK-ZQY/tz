@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main">Demo</string>
+    <string name="shutdown">确认关机</string>
+    <string name="StartConnect">开始连接</string>
+    <string name="IPText_Hint">请输入IP地址</string>
+    <string name="mouse_start_button">鼠标控制</string>
+    <string name="timeShow">定时0分钟关机</string>
+    <string name="demo">Demo</string>
+    <string name="image_Keyboard_Descption">Image_Keyboard</string>
+    <string name="sdcard_dir">/sdcard/tz</string>
+    <string name="Image_Mouse_Description">image_mouse</string>
+    <string name="keyboard_start_button">键盘控制</string>
+    <string name="word_description">keyboard_word</string>
+    
+
+</resources>
