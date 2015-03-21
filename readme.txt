@@ -1,1 +1,2 @@
-remote control~
+remote control
+under GPL!
